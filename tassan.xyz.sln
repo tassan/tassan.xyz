@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMS", "CMS", "{2DB5BA04-3EB3-4F25-BA53-82282DC3A985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{D2B1FB84-E6D9-4CFC-8770-B52CAAE0E81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tassan.Xyz.Blog.Domain", "src\Tassan.Xyz.Blog.Domain\Tassan.Xyz.Blog.Domain.csproj", "{2D380790-11F7-4F54-801F-995AB5176D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tassan.Xyz.Cms.Domain", "src\Tassan.Xyz.Cms.Domain\Tassan.Xyz.Cms.Domain.csproj", "{7C987DB0-A3F6-461D-9F21-F088316BDC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D380790-11F7-4F54-801F-995AB5176D0B} = {D2B1FB84-E6D9-4CFC-8770-B52CAAE0E81A}
+		{7C987DB0-A3F6-461D-9F21-F088316BDC28} = {2DB5BA04-3EB3-4F25-BA53-82282DC3A985}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D380790-11F7-4F54-801F-995AB5176D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D380790-11F7-4F54-801F-995AB5176D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D380790-11F7-4F54-801F-995AB5176D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D380790-11F7-4F54-801F-995AB5176D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C987DB0-A3F6-461D-9F21-F088316BDC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C987DB0-A3F6-461D-9F21-F088316BDC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C987DB0-A3F6-461D-9F21-F088316BDC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C987DB0-A3F6-461D-9F21-F088316BDC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
